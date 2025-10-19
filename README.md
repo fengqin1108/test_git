@@ -27,7 +27,7 @@ git diff assighment_1/a1.py
 git add assighment_1/a1.py
 git commit -m "修正 a1.py: 描述改动"
 
-# 推送（如果已设置上游）
+推送（如果已设置上游）
 git push
-# 若第一次推送或未设置上游：
-# git push -u origin main】
+若第一次推送或未设置上游：
+git push -u origin main】
