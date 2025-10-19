@@ -11,19 +11,19 @@ git push -u origin main #推送并设置上游才能把改名同步，会把本�
 
 
 
-【# 可选：切到工作分支并同步远端
+【可选：切到工作分支并同步远端
 git branch --show-current
 git fetch origin
 git pull
 
-# 查看状态
+查看状态
 git status
 
-# 编辑并保存文件（确保在编辑器里保存）
-# 查看改动（可选）
+编辑并保存文件（确保在编辑器里保存）
+查看改动（可选）
 git diff assighment_1/a1.py
 
-# 暂存并提交
+暂存并提交
 git add assighment_1/a1.py
 git commit -m "修正 a1.py: 描述改动"
 
